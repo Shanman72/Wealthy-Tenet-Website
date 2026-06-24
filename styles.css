@@ -227,13 +227,25 @@ h3 { font-size: 1.25rem; margin-bottom: 0.7rem; }
 
 .dark-band {
   background: var(--dark);
-  color: #f8efe1;
+  color: #ffffff;
 }
 
-.dark-band p { color: rgba(248,239,225,.78); }
+.dark-band h2,
+.dark-band h3 {
+  color: #ffffff;
+}
 
-.section-label.light { color: #d0ae78; }
-.light-link { color: #f8efe1; }
+.dark-band p {
+  color: rgba(255,255,255,.9);
+}
+
+.section-label.light {
+  color: #f3d8aa;
+}
+
+.light-link {
+  color: #ffffff;
+}
 
 .split {
   display: grid;
@@ -470,4 +482,36 @@ h3 { font-size: 1.25rem; margin-bottom: 0.7rem; }
   .iq-logo {
     width: min(300px, 100%);
   }
+}
+
+/* Improve readability of dark Bitcoin sections */
+.dark-band {
+  background: #18202b;
+  color: #ffffff;
+}
+
+.dark-band h2,
+.dark-band h3 {
+  color: #ffffff;
+}
+
+.dark-band p {
+  color: #f6f7f8;
+  font-weight: 450;
+  line-height: 1.75;
+}
+
+.dark-band .section-label,
+.dark-band .section-label.light {
+  color: #f3d8aa;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.dark-band .text-link,
+.dark-band .light-link {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
