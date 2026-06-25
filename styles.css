@@ -515,3 +515,24 @@ h3 { font-size: 1.25rem; margin-bottom: 0.7rem; }
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
 }
+
+/* Low-profile implementation reference */
+.implementation-reference {
+  padding-top: 0;
+}
+
+.small-note {
+  max-width: 780px;
+  margin: 0 auto;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.small-note a {
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
