@@ -40,4 +40,10 @@
     <loc>https://wealthytenet.com/assets/wealthy-tenet-mechanics-brief.pdf</loc>
     <lastmod>2026-06-24</lastmod>
   </url>
+
+  <url>
+    <loc>https://wealthytenet.com/bitcoin-rationale.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
