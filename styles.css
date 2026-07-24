@@ -312,6 +312,11 @@ h3 { font-size: 1.25rem; margin-bottom: 0.7rem; }
 .article-card { padding: clamp(24px, 4vw, 38px); }
 .article-card h2 { font-size: clamp(1.65rem, 3vw, 2.5rem); }
 .article-card p { max-width: 720px; color: var(--muted); }
+.article-card .article-date {
+  margin-top: -0.35rem;
+  margin-bottom: 0.9rem;
+  font-size: 0.88rem;
+}
 .muted-card { opacity: .78; box-shadow: none; }
 
 .link-list {
